@@ -38,28 +38,28 @@ const footer = document.getElementById('footer');
 
 let brand = {
     app: {
-        language: 'en',
-        name: 'MiroTalk',
-        title: 'MiroTalk<br />Free browser based Real-time video calls.<br />Simple, Secure, Fast.',
+        language: 'tr',
+        name: 'Akizmir Toplantı Sistemi',
+        title: 'Akizmir Toplantı Sistemi<br />',
         description:
-            'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
-        joinDescription: 'Pick a room name.<br />How about this one?',
-        joinButtonLabel: 'JOIN ROOM',
-        joinLastLabel: 'Your recent room:',
+            'Bir sonraki video görüşmenizi tek tıkla başlatın. İndirme, eklenti veya giriş gerekmez. Doğrudan konuşma, mesajlaşma ve ekran paylaşımına geçin.',
+        joinDescription: 'Bir oda adı seçin.<br />Bu nasıl?',
+        joinButtonLabel: 'ODAYA KATIL',
+        joinLastLabel: 'Son odanız:',
     },
     site: {
         shortcutIcon: '../images/logo.svg',
         appleTouchIcon: '../images/logo.svg',
-        landingTitle: 'MiroTalk a Free Secure Video Calls, Chat & Screen Sharing.',
-        newCallTitle: 'MiroTalk a Free Secure Video Calls, Chat & Screen Sharing.',
-        newCallRoomTitle: 'Pick name. <br />Share URL. <br />Start conference.',
+        landingTitle: 'Akizmir Toplantı Sistemi - Ücretsiz Güvenli Video Görüşmeleri, Sohbet ve Ekran Paylaşımı.',
+        newCallTitle: 'Akizmir Toplantı Sistemi - Ücretsiz Güvenli Video Görüşmeleri, Sohbet ve Ekran Paylaşımı.',
+        newCallRoomTitle: 'İsim seç. <br />URL paylaş. <br />Konferansı başlat.',
         newCallRoomDescription:
-            "Each room has its disposable URL. Just pick a room name and share your custom URL. It's that easy.",
-        loginTitle: 'MiroTalk - Host Protected login required.',
-        clientTitle: 'MiroTalk WebRTC Video call, Chat Room & Screen Sharing.',
-        privacyPolicyTitle: 'MiroTalk - privacy and policy.',
-        stunTurnTitle: 'Test Stun/Turn Servers.',
-        notFoundTitle: 'MiroTalk - 404 Page not found.',
+            "Her odanın kendine özel URL'si vardır. Sadece bir oda adı seçin ve özel URL'nizi paylaşın. Bu kadar basit.",
+        loginTitle: 'Akizmir Toplantı Sistemi - Sunucu Korumalı giriş gerekli.',
+        clientTitle: 'Akizmir Toplantı Sistemi WebRTC Video görüşme, Sohbet Odası ve Ekran Paylaşımı.',
+        privacyPolicyTitle: 'Akizmir Toplantı Sistemi - gizlilik ve politika.',
+        stunTurnTitle: 'Stun/Turn Sunucularını Test Et.',
+        notFoundTitle: 'Akizmir Toplantı Sistemi - 404 Sayfa bulunamadı.',
     },
     html: {
         features: true,
@@ -79,25 +79,25 @@ let brand = {
                 id="support-button" 
                 data-umami-event="Support button" 
                 onclick="window.open('https://codecanyon.net/user/miroslavpejic85')">
-                <i class="fas fa-heart" ></i>&nbsp;Support
+                <i class="fas fa-heart" ></i>&nbsp;Destek
             </button>
             <br /><br /><br />
-            Author:<a 
+            Geliştirici:<a 
                 id="linkedin-button" 
                 data-umami-event="Linkedin button" 
                 href="https://www.linkedin.com/in/miroslav-pejic-976a07101/" target="_blank"> 
-                Miroslav Pejic
+                Akizmir Geliştirme Ekibi
             </a>
             <br /><br />
-            Email:<a 
+            E-posta:<a 
                 id="email-button" 
                 data-umami-event="Email button" 
-                href="mailto:miroslav.pejic.85@gmail.com?subject=MiroTalk P2P info"> 
-                miroslav.pejic.85@gmail.com
+                href="mailto:info@akizmir.com?subject=Akizmir Toplantı Sistemi bilgi"> 
+                info@akizmir.com
             </a>
             <br /><br />
             <hr />
-            <span>&copy; 2025 MiroTalk P2P, all rights reserved</span>
+            <span>&copy; 2025 Akizmir Toplantı Sistemi, tüm hakları saklıdır</span>
             <hr />
         `,
     },
